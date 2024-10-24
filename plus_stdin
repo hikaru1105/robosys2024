@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Ryuichi Ueda
+# SPDX-FileCopyrightText: 2024 Hikaru Nemoto 
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
