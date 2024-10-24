@@ -1,2 +1,5 @@
 # robosys2024
-A program to add numbers from standard input
+ロボットシステム学授業用
+
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+- © 2024 Hikaru Nemoto
