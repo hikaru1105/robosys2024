@@ -4,7 +4,8 @@
 
 import sys
 
-x = int(sys.argv[1])
+for line in sys.stdin:
+    x = int(line)
 n = 0
 i = 0
 ans = 0
