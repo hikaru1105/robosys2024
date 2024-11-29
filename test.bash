@@ -24,25 +24,25 @@ out=$(echo | ./plus)
 
 #Test of binary command
 #CORRECT INPUT
-out=$(seq 3 | ./binary.py)
+out=$(seq 3 | ./binary)
 [ "${out}" = 11 ] || ng "$LINENO"
 
-out=$(seq 100 | ./binary.py)
+out=$(seq 100 | ./binary)
 [ "${out}" = 1100100 ] || ng "$LINENO"
 
-out=$(seq 51 | ./binary.py)
+out=$(seq 51 | ./binary)
 [ "${out}" = 110011 ] || ng "$LINENO"
 
 #STRANGE INPUT
-out=$(echo あ | ./binary.py)
+out=$(echo あ | ./binary)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo | ./binary.py)
+out=$(echo | ./binary)
 [ "$?" = 1 ]       || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-out=$(echo 0.5 | ./binary.py)
+out=$(echo 0.5 | ./binary)
 [ "$?" = 1 ]       || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
