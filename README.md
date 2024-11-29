@@ -23,7 +23,7 @@
    ```
    3. 実行する権限を付与する
    ```
-   $ chmod -x binary
+   $ chmod +x binary
    ```
 ### 実行方法
 
