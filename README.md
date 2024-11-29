@@ -2,6 +2,7 @@
 ロボットシステム学授業用
 
 # binaryコマンド
+[![test](https://github.com/hikaru1105/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/hikaru1105/robosys2024/actions/workflows/test.yml)
 
 ## 概要
  
@@ -19,6 +20,10 @@
    2. クローンしたディレクトリに移動する
    ```
    $ cd robosys2024
+   ```
+   3. 実行する権限を付与する
+   ```
+   $ chmod -x binary
    ```
 ### 実行方法
 
